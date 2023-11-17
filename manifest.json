@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "KnowQuest",
+  "version": "1.0",
+  "description": "Add 'Create knowledge' option to context menu and toolbar icon to open a specific URL.",
+  "permissions": ["contextMenus", "clipboardRead"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
